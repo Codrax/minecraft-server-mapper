@@ -747,7 +747,7 @@ begin
       WriteLn('-d '+PARAM_PREFIX+'default-mappings-file <path> -> Provide custom location for default mapping file');
       WriteLn('-m '+PARAM_PREFIX+'mappings-file <path> -> Provide custom location for the mappings file');
       WriteLn('-c '+PARAM_PREFIX+'create -> Start application in setup mode. Which lets you create files and manage settings.');
-      WriteLn('-o '+PARAM_PREFIX+'open-dir -> The directory where the mapper will open to');
+      WriteLn('-o '+PARAM_PREFIX+'open-dir -> The working directory of the application, also where the files are searched for');
       WriteLn('-h '+PARAM_PREFIX+'help -> Show this help dialog');
       WriteLn('-v '+PARAM_PREFIX+'version -> Output version');
       WriteLn('Role');
