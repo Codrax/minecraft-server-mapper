@@ -740,16 +740,16 @@ begin
       WriteLn('');
        WriteLn('Parameters');
        WriteLn(LINE_SEPARATOR);
-      WriteLn('-l '+PARAM_PREFIX+'logfile -> Echo log statements to log file');
-      WriteLn('-n '+PARAM_PREFIX+'no-echo -> Do not echo to the console');
-      WriteLn('-s '+PARAM_PREFIX+'service-mode -> Start application in service mode. Which disables input reading');
-      WriteLn('-k '+PARAM_PREFIX+'config-file <path> -> Provide custom location for config file');
-      WriteLn('-d '+PARAM_PREFIX+'default-mappings-file <path> -> Provide custom location for default mapping file');
-      WriteLn('-m '+PARAM_PREFIX+'mappings-file <path> -> Provide custom location for the mappings file');
+      WriteLn('-l '+PARAM_PREFIX+'logfile -> Echo log statements to log file.');
+      WriteLn('-n '+PARAM_PREFIX+'no-echo -> Do not echo to the console.');
+      WriteLn('-s '+PARAM_PREFIX+'service-mode -> Start application in service mode. Which disables input reading.');
+      WriteLn('-k '+PARAM_PREFIX+'config-file <path> -> Provide custom location for config file.');
+      WriteLn('-d '+PARAM_PREFIX+'default-mappings-file <path> -> Provide custom location for default mapping file.');
+      WriteLn('-m '+PARAM_PREFIX+'mappings-file <path> -> Provide custom location for the mappings file.');
       WriteLn('-c '+PARAM_PREFIX+'create -> Start application in setup mode. Which lets you create files and manage settings.');
-      WriteLn('-o '+PARAM_PREFIX+'open-dir -> The working directory of the application, also where the files are searched for');
-      WriteLn('-h '+PARAM_PREFIX+'help -> Show this help dialog');
-      WriteLn('-v '+PARAM_PREFIX+'version -> Output version');
+      WriteLn('-o '+PARAM_PREFIX+'open-dir -> The working directory of the application, also where the files are searched for.');
+      WriteLn('-h '+PARAM_PREFIX+'help -> Show this help dialog.');
+      WriteLn('-v '+PARAM_PREFIX+'version -> Output version.');
       WriteLn('Role');
       WriteLn(LINE_SEPARATOR);
       WriteLn('This application completes the following tasks:');
@@ -846,7 +846,7 @@ begin
           WriteLn('Minecraft mapper');
           WriteLn(LINE_SEPARATOR);
           WriteLn('Version '+VERSION);
-          WriteLn('Copyright (c) 2024 Codrut Software');
+          WriteLn('Copyright (c) 2025 Codrut Software');
         end;
 
         '0': begin
